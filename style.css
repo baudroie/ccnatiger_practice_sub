@@ -163,6 +163,35 @@ footer {
     padding: 4rem 1rem;
     color: var(--text-muted);
     font-size: 0.875rem;
+    border-top: 1px solid var(--glass-border);
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+}
+
+.contact-section {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-section h3 {
+    margin-bottom: 1.5rem;
+    color: var(--text);
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.contact-button {
+    max-width: 400px;
+    margin: 0 auto;
+    background: linear-gradient(135deg, rgba(0, 210, 255, 0.1), rgba(58, 123, 213, 0.15)) !important;
+    border: 1px solid rgba(0, 210, 255, 0.4) !important;
+    font-size: 1rem;
+}
+
+.contact-button:hover {
+    background: linear-gradient(135deg, rgba(0, 210, 255, 0.2), rgba(58, 123, 213, 0.25)) !important;
+    border-color: var(--primary) !important;
+    transform: scale(1.02);
 }
 
 @media (max-width: 640px) {
