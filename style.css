@@ -164,8 +164,7 @@ footer {
     color: var(--text-muted);
     font-size: 0.875rem;
     border-top: 1px solid var(--glass-border);
-    background: rgba(0, 0, 0, 0.4);
-    backdrop-filter: blur(10px);
+    background: #666666;
 }
 
 .contact-section {
@@ -186,6 +185,10 @@ footer {
     background: linear-gradient(135deg, rgba(0, 210, 255, 0.1), rgba(58, 123, 213, 0.15)) !important;
     border: 1px solid rgba(0, 210, 255, 0.4) !important;
     font-size: 1rem;
+}
+
+.contact-button + .contact-button {
+    margin-top: 1rem;
 }
 
 .contact-button:hover {
